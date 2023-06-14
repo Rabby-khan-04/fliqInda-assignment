@@ -8,6 +8,7 @@ export default {
         jura: ["Jura", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
         jost: ["Jost", "sans-serif"],
+        babas: ["Bebas Neue", "sans-serif"],
       },
     },
   },
