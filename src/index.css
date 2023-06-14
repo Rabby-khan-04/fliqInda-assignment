@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  @apply max-w-[2520px] mx-auto xl:px-14 md:px-10 sm:px-2 px-4;
+}
