@@ -6,6 +6,8 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         jura: ["Jura", "sans-serif"],
+        josefin: ["Josefin Sans", "sans-serif"],
+        jost: ["Jost", "sans-serif"],
       },
     },
   },
