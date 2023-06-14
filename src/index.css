@@ -9,3 +9,17 @@
 .container {
   @apply max-w-[2520px] mx-auto xl:px-14 md:px-10 sm:px-2 px-4;
 }
+
+.my-btn {
+  background: linear-gradient(180deg, #017b96 0%, #1e4047 100%);
+  @apply text-xl text-white capitalize py-3 px-9 rounded-full inline-block;
+}
+
+.my-btn__alt {
+  background: linear-gradient(
+    180deg,
+    rgba(78, 153, 164, 0.95) 0%,
+    #004d58 100%
+  );
+  @apply text-xl text-white capitalize py-3 px-9 rounded-full inline-block;
+}

@@ -5,23 +5,35 @@ const Menu = () => {
   const menuItem = (
     <>
       <li>
-        <Link to="/">Home</Link>
+        <Link className="hover:text-primary transition-all duration-300" to="/">
+          Home
+        </Link>
       </li>
       <li>
-        <Link to="/">Service</Link>
+        <Link className="hover:text-primary transition-all duration-300" to="/">
+          Service
+        </Link>
       </li>
       <li>
-        <Link to="/">Portfolio</Link>
+        <Link className="hover:text-primary transition-all duration-300" to="/">
+          Portfolio
+        </Link>
       </li>
       <li>
-        <Link to="/">Community</Link>
+        <Link className="hover:text-primary transition-all duration-300" to="/">
+          Community
+        </Link>
       </li>
       <li>
-        <Link to="/">Blog</Link>
+        <Link className="hover:text-primary transition-all duration-300" to="/">
+          Blog
+        </Link>
       </li>
     </>
   );
-  return <div></div>;
+  return (
+    <ul className="flex items-center gap-11 text-white text-xl">{menuItem}</ul>
+  );
 };
 
 export default Menu;
