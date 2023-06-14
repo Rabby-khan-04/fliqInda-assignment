@@ -1,0 +1,29 @@
+.slider-container {
+  position: relative;
+}
+
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #ddf8f3;
+  color: black;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.mySwiper .swiper-button-prev {
+  left: 20px;
+}
+
+.mySwiper .swiper-button-next {
+  right: 20px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 24px !important;
+}
