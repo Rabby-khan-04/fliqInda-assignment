@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#131514] text-white pt-11 pb-3">
+    <footer className="bg-[#131514] text-white pt-11 pb-3 relative overflow-hidden">
       <div className="container">
         <div className="grid grid-cols-4 gap-10 pb-16">
           <div className="col-span-2">
@@ -71,6 +71,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      <div className="w-96 h-96 rounded-full bg-[#E0E0E0] absolute -top-[60%] -right-28 -z-[1px]"></div>
+      <div className="w-40 h-40 rounded-full bg-[#E0E0E0] absolute -bottom-16 -left-12 -z-[1px]"></div>
     </footer>
   );
 };
