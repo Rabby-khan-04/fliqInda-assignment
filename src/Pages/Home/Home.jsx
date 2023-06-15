@@ -5,6 +5,7 @@ import Team from "../../Components/Home/Team/Team";
 import Services from "../../Components/Home/Services/Services";
 import Idea from "../../Components/Home/Idea/Idea";
 import Blogs from "../../Components/Home/Blogs/Blogs";
+import Wedding from "../../Components/Home/Wedding/Wedding";
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       <Team />
       <Services />
       <Idea />
-      <Blogs />{" "}
+      <Blogs />
+      <Wedding />
     </>
   );
 };
