@@ -1,0 +1,6 @@
+.review-btn {
+  @apply text-sm font-bold text-white py-1 px-8 bg-primary border border-black rounded-[10px] inline-block hover:text-black hover:bg-white transition-all duration-300;
+}
+.review-btn__alt {
+  @apply text-sm font-bold text-black py-1 px-8 bg-white border border-black rounded-[10px] inline-block hover:text-white hover:bg-primary transition-all duration-300;
+}
