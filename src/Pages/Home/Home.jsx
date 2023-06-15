@@ -9,6 +9,7 @@ import Wedding from "../../Components/Home/Wedding/Wedding";
 import Offers from "../../Components/Home/Offers/Offers";
 import Testimonials from "../../Components/Testimonials/Testimonials";
 import Awards from "../../Components/Home/Awards/Awards";
+import Success from "../../Components/Home/Success/Success";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Offers />
       <Testimonials />
       <Awards />
+      <Success />
     </>
   );
 };
