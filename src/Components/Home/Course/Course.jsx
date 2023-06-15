@@ -5,7 +5,7 @@ import "./Course.css";
 
 const Course = () => {
   return (
-    <section className="pt-7">
+    <section className="py-7">
       <div className="container">
         <div
           className=" pt-28 pb-24 pr-40 rounded-xl course-container"

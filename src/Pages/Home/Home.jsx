@@ -11,6 +11,7 @@ import Testimonials from "../../Components/Testimonials/Testimonials";
 import Awards from "../../Components/Home/Awards/Awards";
 import Success from "../../Components/Home/Success/Success";
 import Course from "../../Components/Home/Course/Course";
+import CAT from "../../Components/Home/CAT/CAT";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Awards />
       <Success />
       <Course />
+      <CAT />
     </>
   );
 };
