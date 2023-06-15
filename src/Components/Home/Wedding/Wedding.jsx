@@ -6,8 +6,8 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Wedding = () => {
   return (
-    <section className="pt-28 pb-8">
-      <div className="container">
+    <section className="pt-28">
+      <div className="container pb-8 border-b border-black">
         <div className="intro mb-10">
           <SectionTitle
             title="Real Wedding"

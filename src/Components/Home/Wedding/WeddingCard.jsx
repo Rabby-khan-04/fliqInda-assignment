@@ -36,9 +36,17 @@ function ThumbnailPlugin(mainRef) {
   };
 }
 
+// const animation = { duration: 100000, easing: (t) => t };
+
 const WeddingCard = ({ item }) => {
   const [sliderRef, instanceRef] = useKeenSlider({
     initial: 0,
+    // loop: true,
+    // renderMode: "performance",
+    // drag: false,
+    // created(s) {
+    //   s.moveToIdx(5, true, animation);
+    // },
   });
   const [thumbnailRef] = useKeenSlider(
     {

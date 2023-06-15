@@ -6,6 +6,7 @@ import Services from "../../Components/Home/Services/Services";
 import Idea from "../../Components/Home/Idea/Idea";
 import Blogs from "../../Components/Home/Blogs/Blogs";
 import Wedding from "../../Components/Home/Wedding/Wedding";
+import Offers from "../../Components/Home/Offers/Offers";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Idea />
       <Blogs />
       <Wedding />
+      <Offers />
     </>
   );
 };
