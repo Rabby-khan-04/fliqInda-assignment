@@ -40,12 +40,20 @@ const Awards = () => {
   return (
     <section className="pt-14">
       <div className="container">
-        <div className="p-16 grid grid-cols-2 gap-14 bg-[#DDF8F3] awards-container rounded-xl">
-          <div className="bg-[#4E99A4] py-10 px-9 flex items-center justify-around rounded-xl award-img">
-            <img src={award1} alt="" />
-            <img src={award2} alt="" />
+        <div className="p-16 grid  xl:grid-cols-2 gap-14 bg-[#DDF8F3] awards-container rounded-xl">
+          <div className="bg-[#4E99A4] py-10 px-9 grid md:grid-cols-2 gap-7 rounded-xl award-img">
+            <img
+              src={award1}
+              className="w-full self-center image-full"
+              alt=""
+            />
+            <img
+              src={award2}
+              className="w-full self-center image-full"
+              alt=""
+            />
           </div>
-          <div className="grid grid-cols-2 gap-x-6 gap-y-4">
+          <div className="grid md:grid-cols-2 gap-x-6 gap-y-4">
             {ratings.map((rating, index) => (
               <div
                 key={index}

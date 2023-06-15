@@ -8,25 +8,25 @@ const Course = () => {
     <section className="py-7">
       <div className="container">
         <div
-          className=" pt-28 pb-24 pr-40 rounded-xl course-container"
+          className="pt-28 pb-24 lg:pr-40 pl-6 2xl:pl-0 rounded-xl course-container"
           style={{
             background: `url("${courseBg}")`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="max-w-[1120px] ml-auto grid grid-cols-2 gap-10">
-            <div>
-              <h3 className="text-[40px] font-[400] text-white mb-10">
+          <div className="max-w-[1120px] ml-auto grid lg:grid-cols-2 gap-10">
+            <div className="text-center lg:text-left">
+              <h3 className="xl:text-[40px] text-4xl font-[400] text-white 2xl:mb-10 mb-6">
                 ULTIMATE
                 <br />
                 COURSE IN
               </h3>
-              <h2 className="font-babas text-white font-[400] text-9xl">
+              <h2 className="font-babas text-white font-[400] 2xl:text-9xl text-7xl">
                 PHOTOGRAPHY
               </h2>
             </div>
-            <div>
+            <div className="flex lg:justify-normal justify-center">
               <img src={courseImg} alt="" />
             </div>
           </div>

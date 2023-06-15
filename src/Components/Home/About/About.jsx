@@ -33,7 +33,7 @@ const About = () => {
     <section className="pt-6 pb-28">
       <div className="container">
         <div className="intro text-center">
-          <h2 className="font-jura text-black text-[64px]">
+          <h2 className="font-jura text-black text-5xl lg:text-[64px]">
             India’s Leading Creative Platform
           </h2>
           <p className="text-[32px] font-josefin text-[#4C696D] font-light">
@@ -52,7 +52,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-10 pb-10">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-10 pb-10">
           {aboutDetails.map((item, index) => (
             <AboutBox item={item} key={index} />
           ))}

@@ -10,7 +10,7 @@ const ServiceCard = ({ service }) => {
         <p className="text-[#4C696D] ">
           <span className="font-bold">Starting at</span> {price} ({time})
         </p>
-        <button className="text-base text-white font-medium rounded-xl px-16 py-2 bg-primary inline-block mt-10">
+        <button className="text-base text-white font-medium rounded-xl lg:px-16 py-2 bg-primary w-full lg:w-auto inline-block mt-10">
           Know more
         </button>
       </div>

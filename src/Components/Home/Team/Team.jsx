@@ -61,7 +61,7 @@ const Team = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-5 gap-7">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-7">
           {teamInfo.map((member, index) => (
             <TeamCard member={member} key={index} />
           ))}

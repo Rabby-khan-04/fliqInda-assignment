@@ -40,7 +40,7 @@ const Offers = () => {
             sub="Discover the best offers  on our services"
           />
         </div>
-        <div className="mt-6 grid grid-cols-4 divide-x divide-[#8F8787]">
+        <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 lg:divide-x gap-y-8 lg:gap-y-0 lg:divide-[#8F8787]">
           {offers.map((offer, index) => (
             <OffersCard offer={offer} key={index} />
           ))}

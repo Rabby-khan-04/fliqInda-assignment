@@ -7,7 +7,7 @@ const Banner = () => {
       style={{ backgroundImage: `url("${bannerBg}")` }}
       className="bg-cover bg-no-repeat bg-center"
     >
-      <div className="container h-[550px]"></div>
+      <div className="container h-96 lg:h-[550px]"></div>
     </section>
   );
 };

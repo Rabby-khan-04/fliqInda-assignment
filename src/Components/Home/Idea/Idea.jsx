@@ -15,16 +15,16 @@ const Idea = () => {
         style={{ backgroundImage: `url("${bannerBg}")` }}
       >
         <div className="max-w-[2520px] mx-auto xl:pl-14 md:pl-10 sm:pl-2 pl-4">
-          <div className="grid grid-cols-3 gap-20">
-            <div className="pt-[70px] pb-6">
-              <h2 className="text-[64px] font-josefin uppercase leading-none font-light text-white">
+          <div className="grid xl:grid-cols-3 gap-20">
+            <div className="pt-6 lg:pt-10 xl:pt-[70px] pb-6 order-last xl:order-first text-center xl:text-left">
+              <h2 className="md:text-[64px] text-5xl font-josefin uppercase leading-none font-light text-white">
                 Discover
               </h2>
-              <h2 className="text-[64px] font-babas font-extralight text-white leading-none mb-4">
+              <h2 className="md:text-[64px] text-5xl font-babas font-extralight text-white leading-none mb-4">
                 Graphic Desing Ideas <br />
                 And Services
               </h2>
-              <p className="text-3xl text-white font-josefin uppercase font-light tracking-tighter">
+              <p className="md:text-3xl text-2xl text-white font-josefin uppercase font-light tracking-tighter">
                 From Branding to marketing
               </p>
               <div className="form-control search-container max-w-[991px] mx-auto rounded-full overflow-hidden border border-black mt-9">
@@ -44,7 +44,7 @@ const Idea = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-2 grid grid-cols-4 gap-16">
+            <div className="xl:col-span-2 grid grid-cols-2 lg:grid-cols-4 gap-16">
               <div className="relative mt-[104px]">
                 <img
                   src={idea1}
@@ -63,7 +63,7 @@ const Idea = () => {
                 <div className="h-6 w-[70px] bg-[#DEE0EA] absolute top-[10px] left-0 right-0 mx-auto"></div>
                 <div className="w-px bg-[#DBDDE7] h-40 absolute -top-36 left-0 right-0 mx-auto"></div>
               </div>
-              <div className="relative mt-[104px]">
+              <div className="relative mt-20 lg:mt-[104px]">
                 <img
                   src={idea3}
                   className="border-[10px] border-[#211A13] w-full"
@@ -72,7 +72,7 @@ const Idea = () => {
                 <div className="h-6 w-[70px] bg-[#DEE0EA] absolute top-[10px] left-0 right-0 mx-auto"></div>
                 <div className="w-px bg-[#DBDDE7] h-40 absolute -top-36 left-0 right-0 mx-auto"></div>
               </div>
-              <div className="relative  mt-20">
+              <div className="relative mt-0 lg:mt-20">
                 <img
                   src={idea4}
                   className="border-[10px] border-[#211A13] w-full"
@@ -89,7 +89,7 @@ const Idea = () => {
       <section className="pt-11 pb-16">
         <div className="container">
           <div className=" border-b border-[#ADA3A3]">
-            <div className="max-w-[1220px] mx-auto font-bold text-3xl text-[#4C696D] flex items-center justify-between pb-9">
+            <div className="max-w-[1220px] mx-auto font-bold text-3xl lg:text-left text-center text-[#4C696D] lg:flex items-center justify-between pb-9">
               <p className=" font-jura text-black">Popular:</p>
               <p className=" font-jura">Website Design</p>
               <p className=" font-jura">Logo Design</p>

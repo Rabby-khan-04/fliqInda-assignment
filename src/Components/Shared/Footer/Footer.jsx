@@ -10,11 +10,13 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-[#131514] text-white pt-11 pb-3 relative overflow-hidden">
+      <div className="w-96 h-96 rounded-full bg-[#E0E0E0] absolute 2xl:-top-[60%] -top-[90%] -right-28 -z-[1px]"></div>
+      <div className="w-40 h-40 rounded-full bg-[#E0E0E0] absolute -bottom-16 -left-12 -z-[1px]"></div>
       <div className="container">
-        <div className="grid grid-cols-4 gap-10 pb-16">
-          <div className="col-span-2">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-16">
+          <div className="md:col-span-2 md:text-center lg:text-left">
             <h2 className="text-[26px] italic">Never miss a thing.</h2>
-            <div className="form-control max-w-lg rounded-full overflow-hidden border border-white mt-4 mb-5">
+            <div className="form-control max-w-lg lg:mx-0 md:mx-auto rounded-full overflow-hidden border border-white mt-4 mb-5">
               <div className="relative">
                 <input
                   type="text"
@@ -27,7 +29,7 @@ const Footer = () => {
               </div>
             </div>
             <h2 className="text-2xl italic">Be in touch</h2>
-            <div className="text-2xl flex items-center gap-1">
+            <div className="text-2xl flex items-center lg:justify-normal md:justify-center gap-1">
               <FaFacebook />
               <FaWhatsapp />
               <FaLinkedin />
@@ -36,7 +38,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          <div className="relative z-40">
             <h2 className="text-[26px] mb-2">Never miss a thing.</h2>
 
             <div className="grid grid-cols-2">
@@ -71,8 +73,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="w-96 h-96 rounded-full bg-[#E0E0E0] absolute -top-[60%] -right-28 -z-[1px]"></div>
-      <div className="w-40 h-40 rounded-full bg-[#E0E0E0] absolute -bottom-16 -left-12 -z-[1px]"></div>
     </footer>
   );
 };

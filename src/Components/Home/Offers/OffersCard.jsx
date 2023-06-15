@@ -4,7 +4,7 @@ import "./OffersCard.css";
 const OffersCard = ({ offer }) => {
   const { img, title, discount } = offer;
   return (
-    <div className="px-20">
+    <div className="2xl:px-20 xl:px-12 lg:px-10 px-6">
       <div className="wedding-card overflow-hidden rounded-xl">
         <div className="offer-img relative overflow-hidden rounded-xl">
           <img src={img} className="rounded-xl w-full" alt="" />
@@ -17,7 +17,7 @@ const OffersCard = ({ offer }) => {
             </div>
             <div>
               <p className="text-xl text-white">Discount</p>
-              <img src={discount} alt="" />
+              <img src={discount} className="lg:h-14" alt="" />
             </div>
           </div>
         </div>

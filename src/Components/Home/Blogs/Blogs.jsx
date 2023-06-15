@@ -39,13 +39,13 @@ const Blogs = () => {
         <div className="intro mb-10">
           <SectionTitle title="Our Blogs" sub="Check ourour Latest Blog" />
         </div>
-        <div className="grid grid-cols-6 gap-7">
-          <div className="col-span-4 grid grid-cols-2 gap-7">
+        <div className="grid xl:grid-cols-8 gap-7">
+          <div className="xl:col-span-6 grid md:grid-cols-2 gap-7 order-last xl:order-first">
             {blogInfo.slice(0, 2).map((blog, index) => (
               <BlogCard key={index} blog={blog} />
             ))}
           </div>
-          <div className="col-span-2 text-[#354547]">
+          <div className="xl:col-span-2 text-[#354547]">
             <div className="flex items-center justify-between">
               <h2 className="text-xl ">Trending Now</h2>
               <Link to="/" className="text-sm">

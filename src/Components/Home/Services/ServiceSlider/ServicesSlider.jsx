@@ -11,12 +11,26 @@ const ServicesSlider = () => {
   return (
     <div className="slider-container">
       <Swiper
-        slidesPerView={4}
-        spaceBetween={60}
+        slidesPerView={1}
+        spaceBetween={0}
         navigation={true}
         modules={[Navigation]}
         loop={true}
         className="mySwiper"
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1400: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        }}
       >
         {servicesInfo.map((service, index) => (
           <SwiperSlide key={index}>

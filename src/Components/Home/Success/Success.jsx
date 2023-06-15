@@ -42,7 +42,7 @@ const Success = () => {
           <div className="text-center mb-7">
             <SectionTitle title="Our Success" sub="Journey of our success" />
           </div>
-          <div className="grid grid-cols-5 gap-10 max-w-[1250px] mx-auto">
+          <div className="grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 gap-10 max-w-[1250px] mx-auto">
             {successes.map((success, index) => (
               <SuccessCard success={success} key={index} />
             ))}

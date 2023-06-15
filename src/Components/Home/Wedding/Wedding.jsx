@@ -15,7 +15,7 @@ const Wedding = () => {
           />
         </div>
 
-        <div className="grid grid-cols-4 gap-14">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-14">
           {wedding.map((item, index) => (
             <WeddingCard key={index} item={item} />
           ))}

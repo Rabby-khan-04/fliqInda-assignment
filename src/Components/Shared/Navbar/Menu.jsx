@@ -32,7 +32,9 @@ const Menu = () => {
     </>
   );
   return (
-    <ul className="flex items-center gap-11 text-white text-xl">{menuItem}</ul>
+    <ul className="hidden lg:flex items-center gap-11 text-white text-xl">
+      {menuItem}
+    </ul>
   );
 };
 
